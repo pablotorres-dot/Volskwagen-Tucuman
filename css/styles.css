@@ -1,0 +1,21 @@
+html {
+    scroll-padding-top: 270px;
+}
+
+
+.imgLogo {
+    width: 20px;
+}
+
+@media(min-width:768px) {
+
+    #carouselExampleCaptions {
+        height: calc(100vh-56px);
+    }
+}
+
+@media(min-width:1024px) {
+    html {
+        scroll-padding-top: 56px;
+    }
+}
