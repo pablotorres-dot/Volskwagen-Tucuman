@@ -1,13 +1,14 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-main{
-    background-color: rgb(255, 249, 241) ;
+main {
+  background-color: rgb(255, 249, 241);
 }
 
-.contenedor-beneficios{
- 
-    background-color: rgba(231, 213, 197, 0.37) ;
+.contenedor-beneficios {
+  background-color: rgba(231, 213, 197, 0.37);
 }
-.b-1{border: 1px }
+.b-1 {
+  border: 1px;
+}
