@@ -19,3 +19,7 @@ html {
         scroll-padding-top: 56px;
     }
 }
+
+.encabezado {
+    background-color: rgb(15, 20, 45);
+}
