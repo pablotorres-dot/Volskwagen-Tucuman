@@ -1,7 +1,14 @@
 html {
     scroll-padding-top: 270px;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+}
 
 .imgLogo {
     width: 20px;
@@ -18,4 +25,11 @@ html {
     html {
         scroll-padding-top: 56px;
     }
+}
+
+.encabezado {
+    background-color: rgb(15, 20, 45);
+}
+.footer {
+    background-color: rgb(15, 20, 45);
 }
