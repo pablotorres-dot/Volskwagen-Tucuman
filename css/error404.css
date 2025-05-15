@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3c3f57;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #0a0b1d;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f1f49;
+  border-radius: 20px;
+}
+#Imagen404 {
+}
+h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 25%;
+  color: antiquewhite;
+}
+p {
+  color: antiquewhite;
+}
+a {
+  font-size: 1.2em;
+  color: antiquewhite;
+  text-decoration: none;
+}
