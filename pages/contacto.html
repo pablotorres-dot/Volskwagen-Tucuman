@@ -11,6 +11,7 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.min.css"
@@ -21,9 +22,9 @@
 
     <header class="position-sticky sticky-top">
       <!-- header -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark encabezado">
         <div class="container-fluid">
-          <a class="navbar-brand d-flex gap-2" href="#"
+          <a class="navbar-brand d-flex gap-2" href="../index.html"
             ><i class="bi bi-lightbulb-fill"></i> volkswagen</a
           >
           <button
@@ -46,22 +47,17 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#buscar"
-                  ><i class="bi bi-star-fill"></i> Buscar</a
+                  ><i class="bi bi-search"></i> Buscar</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Carrito"
-                  ><i class="bi bi-journal-code"></i> Carrito</a
+                  ><i class="bi bi-cart4"></i> Carrito</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#nosotros"
-                  ><i class="bi bi-chat-left-quote-fill"></i> Sobre Nosotros</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacto"
-                  ><i class="bi bi-geo-alt-fill"></i> Contacto</a
+                  ><i class="bi bi-people-fill"></i> Sobre Nosotros</a
                 >
               </li>
 
@@ -81,7 +77,68 @@
         </div>
       </nav>
     </header>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="exampleModalLabel">
+            Iniciar Sesión
+          </h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-12">
+              <label for="validationCustom01" class="form-label">Correo electronico</label>
+              <input type="email" class="form-control" id="validationCustom01" value="" required />
+              <div class="valid-feedback">Bien hecho!</div>
+              <div class="invalid-feedback">
+                <ul>
+                  <li>Campo requerido</li>
+                  <li>Debe ser un correo electronico valido.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="validationCustom02" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="validationCustom02" value="" required />
+              <div class="valid-feedback">Bien hecho!</div>
+              <div class="invalid-feedback">
+                <ul>
+                  <li>Campo requerido</li>
+                </ul>
+              </div>
+            </div>
 
+            <!-- <div class="col-12">
+               <div class="form-check">
+                 <input
+                   class="form-check-input"
+                   type="checkbox"
+                   value=""
+                   id="invalidCheck"
+                   required
+                 />
+                 <label class="form-check-label" for="invalidCheck">
+                   Acepto los terminos y condiciones
+                 </label>
+                 <div class="invalid-feedback">
+                   Debe aceptar los terminos y condiciones.
+                 </div>
+               </div>
+             </div> -->
+
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Iniciar Sesión</button>
+              <button type="button" class="btn btn-primary"> <a href="./pages/registro.html" target="_blank"
+                  class="btn btn-primary">Registrarse</a> </button>
+              <!-- <button type="button" class="btn btn-primary">Registrarse</button> -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
     <main>
       <section>
         <article class="container content_format">
@@ -598,13 +655,9 @@
         </article>
       </section>
     </main>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-      crossorigin="anonymous"
-    ></script>
+    <footer>
+      <!-- poner aca el footer de pablo -->
+    </footer>
+    index.html
   </body>
-  <footer>
-    <!-- poner aca el footer de pablo -->
-  </footer>
 </html>
