@@ -5,18 +5,61 @@
 main {
   background-color: rgba(67, 71, 78, 0.171);
 }
-
-.contenedor-beneficios {
-  background-color: rgba(230, 211, 194, 0.493);
+/* carrusel */
+.custom-carousel {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+  .custom-carousel {
+    width: 95%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+}
+
+/* BENEFICIOS */
+.titulo-b-1 {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 4px;
+  text-decoration: underline;
+}
+.contenedor-mayor-beneficios {
+  background-color: rgb(84, 109, 137);
+  max-width: 900px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.parrafo-b-1 {
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.b-1 {
+  margin-bottom: 10px;
+}
+
 .b-1 {
   border: 1px;
 }
+@media (min-width: 768px) {
+  .b-1 {
+    width: 250px;
+  }
+}
+/* CATEGORIA */
 
 .card-categoria {
   position: relative;
   margin-top: 18px;
-  
+
   width: 300px;
   height: 200px;
   border-radius: 10px;
@@ -52,16 +95,148 @@ main {
   z-index: 1;
   position: relative;
 }
-.a-de-categoria{
+.a-de-categoria {
   text-decoration: none;
   color: white;
 }
-/* publicidad */
-.publi-taos{
-  width: 50%;
+/* productos */
+@media (min-width: 768px) {
+  .card {
+    width: 18rem;
+  }
 }
-.img-publi{
-  width: 900px;
-  height: 300px;
-  
+.titulo-cards {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-decoration: underline wavy 5px;
+}
+.contenedor-de-botones .btn {
+  background-color: rgb(84, 109, 137) !important;
+  color: rgb(234, 193, 150);
+  font-weight: 700;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.contenedor-de-botones .btn:hover {
+  background-color: rgb(234, 193, 150) !important;
+  color: rgb(84, 109, 137);
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+.contenedor-pro .card .card-body .card-title {
+  font-weight: 900;
+  color: rgb(14, 23, 48);
+  /* text-shadow: 1px 2px 3px rgb(234, 193, 150); */
+}
+.contenedor-pro .card .card-body .card-text {
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+/* publicidad */
+.publi-contenedor {
+  background-color: aqua;
+  position: relative;
+  width: 70%;
+  height: 450px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50px;
+  box-shadow: 0 15px 9px rgba(0, 0, 0, 0.3);
+}
+.img-publi {
+  width: 945px;
+  height: 450px;
+  object-fit: cover;
+}
+.titulo-publi {
+  position: absolute;
+  padding: 35px;
+  bottom: 20px;
+  left: 15px;
+  z-index: 5;
+}
+.titulo-publicidad {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  font-size: 45px;
+}
+.p-publi {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+}
+.b-publi {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 4px 25px;
+  border-radius: 50px;
+  background-color: rgb(84, 109, 137);
+  color: rgb(234, 193, 150);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.b-publi:hover {
+  background-color: rgb(234, 193, 150);
+  color: rgb(84, 109, 137);
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+/* SOBRE NOSOTROS */
+.tiulo-sn {margin-top: 15px;
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+.titulo-div {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  color: rgb(194, 163, 135);
+  font-weight: 600;
+  text-shadow: 2px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.info-sn {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  list-style: disc;
+}
+.contenedor-sobre-n {
+  background-color: rgb(84, 109, 137);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+.contenedor-sobre-n:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  .contenedor-sobre-n {
+    width: 450px;
+    height: 450px;
+
+    text-align: center;
+  }
 }
