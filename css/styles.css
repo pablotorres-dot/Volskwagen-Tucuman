@@ -1,23 +1,43 @@
 html {
     scroll-padding-top: 270px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
+
 main{
     flex: 1;
 }
 
-.imgLogo {
-    width: 20px;
-}
 
 @media(min-width:768px) {
 
     #carouselExampleCaptions {
         height: calc(100vh-56px);
+    }
+    .contenedorBoton {
+        height: 2.5rem;
+        
+    }
+
+    .contenedorBoton button {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        
     }
 }
 
@@ -33,3 +53,34 @@ main{
 .footer {
     background-color: rgb(15, 20, 45);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
