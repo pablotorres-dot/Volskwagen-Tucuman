@@ -1,4 +1,4 @@
-body {
+#BD.error404 {
   font-family: Arial, sans-serif;
   background-color: #3c3f57;
   display: flex;
@@ -8,16 +8,16 @@ body {
   height: 100vh;
   margin: 0;
 }
-main {
+#main.error404 {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #0a0b1d;
 }
-section {
-  width: 100vw;
-  height: 100vh;
+#error404 {
   padding-left: 30px;
   display: flex;
   flex-direction: column;
@@ -26,18 +26,21 @@ section {
   background-color: #0f1f49;
   border-radius: 20px;
 }
-#Imagen404 {
+#imagen404 {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
 }
-h1 {
+#h1.error404 {
   font-size: 20px;
   margin-top: 20px;
   margin-left: 25%;
   color: antiquewhite;
 }
-p {
+#p.error404 {
   color: antiquewhite;
 }
-a {
+#btn.error404 {
   font-size: 1.2em;
   color: antiquewhite;
   text-decoration: none;
