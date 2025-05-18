@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
 }
+html
+{
+  scroll-behavior: smooth;
+}
 main {
   background-color: rgba(67, 71, 78, 0.171);
 }
