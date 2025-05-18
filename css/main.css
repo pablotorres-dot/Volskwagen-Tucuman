@@ -26,8 +26,8 @@ main {
 /* BENEFICIOS */
 .titulo-b-1 {
   font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 4px;
-  text-decoration: underline;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px 4px rgba(17, 16, 16, 0.4);
 }
 .contenedor-mayor-beneficios {
   background-color: rgb(84, 109, 137);
@@ -55,7 +55,13 @@ main {
   }
 }
 /* CATEGORIA */
-
+.titulo-categoria-b{
+   font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
 .card-categoria {
   position: relative;
   margin-top: 18px;
@@ -110,7 +116,7 @@ main {
   font-weight: 500;
   font-size: 50px;
   letter-spacing: 3px;
-  text-decoration: underline wavy 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .contenedor-de-botones .btn {
   background-color: rgb(84, 109, 137) !important;
