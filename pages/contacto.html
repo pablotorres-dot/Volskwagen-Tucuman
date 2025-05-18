@@ -1,469 +1,774 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Damian-Osores" />
+    <title>Formumlario-Contacto</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Damian-Osores" />
-  <title>Formumlario-Contacto</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.min.css"
+    />
+  </head>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../css/styles.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.min.css" />
-</head>
+  <body>
+    <header class="position-sticky sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark encabezado">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex gap-2" href="#"
+            ><img
+              src="https://img.icons8.com/?size=100&id=QKZZO8EpA69a&format=png&color=FFFFFF"
+              width="40"
+              alt="Logo volkswagen"
+            />
+            Volkswagen Tucuman</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html"
+                  ><i class="bi bi-house-door-fill"></i> Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./error404.html"
+                  ><i class="bi bi-search"></i> Buscar</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./detalledecarrito.html"
+                  ><i class="bi bi-cart4"></i> Carrito</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./acercadenosotros.html"
+                  ><i class="bi bi-people-fill"></i> Sobre Nosotros</a
+                >
+              </li>
 
-<body>
-
-  <header class="position-sticky sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark encabezado">
-      <div class="container-fluid">
-        <a class="navbar-brand d-flex gap-2" href="#"><img
-            src="https://img.icons8.com/?size=100&id=QKZZO8EpA69a&format=png&color=FFFFFF" width="40"
-            alt="Logo volkswagen" />
-          Volkswagen Tucuman</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html"><i class="bi bi-house-door-fill"></i> Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./error404.html"><i class="bi bi-search"></i> Buscar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./detalledecarrito.html"><i class="bi bi-cart4"></i> Carrito</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./acercadenosotros.html"><i class="bi bi-people-fill"></i> Sobre
-                Nosotros</a>
-            </li>
-
-            <li class="nav-item">
-              <!-- Button modal -->
-              <button type="button" class="btn btn-outline-secondary text-light" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">
-                <i class="bi bi-person-plus-fill"></i> Login
-              </button>
-            </li>
-          </ul>
+              <li class="nav-item">
+                <!-- Button modal -->
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary text-light"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <i class="bi bi-person-plus-fill"></i> Login
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-
-  <main style="background-color: rgba(230, 211, 194, 0.493)">
-    <section>
-      <article class="container content_format">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="panel-pane pane-titulo">
-            <div class="pane-content">
-              <h1 class="activities-sidbar">Formulario de contacto</h1>
+    <main style="background-color: rgba(230, 211, 194, 0.493)">
+      <section>
+        <article class="container content_format">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="panel-pane pane-titulo">
+              <div class="pane-content">
+                <h1 class="activities-sidbar">Formulario de contacto</h1>
+              </div>
+            </div>
+            <div class="panel-separator"></div>
+            <div class="panel-pane pane-redes-sociales">
+              <div class="pane-content">
+                <div class="section-actions social-share">
+                  <p>Encontranos en nuestras Redes Sociales</p>
+                  <div class="item-list list-inline">
+                    <ul
+                      class="list-inline"
+                      style="list-style: none; padding: 0; margin: 0"
+                    >
+                      <li
+                        class="first list-inline"
+                        style="display: inline-block; margin-right: 10px"
+                      >
+                        <a
+                          href="./error404.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <span class="visually-hidden">Facebook</span>
+                          <i class="bi bi-facebook"></i>
+                        </a>
+                      </li>
+                      <li style="display: inline-block; margin-right: 10px">
+                        <a href="./error404.html" target="_blank">
+                          <span class="visually-hidden">Twitter-x</span>
+                          <i class="bi bi-twitter-x"></i>
+                        </a>
+                      </li>
+                      <li style="display: inline-block; margin-right: 10px">
+                        <a
+                          href="./error404.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <span class="visually-hidden">LinkedIn</span>
+                          <i class="bi bi-linkedin"></i>
+                        </a>
+                      </li>
+                      <li style="display: inline-block; margin-right: 10px">
+                        <a
+                          href="./error404.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          id="linkWA"
+                        >
+                          <span class="visually-hidden">Whatsapp</span>
+                          <i class="bi bi-whatsapp"></i>
+                        </a>
+                      </li>
+                      <li class="last" style="display: inline-block">
+                        <a
+                          href="./error404.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          id="linkTG1"
+                        >
+                          <span class="visually-hidden"> Telegram</span>
+                          <i class="bi bi-telegram"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="panel-separator"></div>
-          <div class="panel-pane pane-redes-sociales">
+          <div class="panel-pane pane-separador">
             <div class="pane-content">
-              <div class="section-actions social-share">
-                <p>Encontranos en nuestras Redes Sociales</p>
-                <div class="item-list list-inline">
-                  <ul class="list-inline" style="list-style: none; padding: 0; margin: 0">
-                    <li class="first list-inline" style="display: inline-block; margin-right: 10px">
-                      <a href="./error404.html" target="_blank" rel="noopener noreferrer">
-                        <span class="visually-hidden">Facebook</span>
-                        <i class="bi bi-facebook"></i>
-                      </a>
-                    </li>
-                    <li style="display: inline-block; margin-right: 10px">
-                      <a href="./error404.html" target="_blank">
-                        <span class="visually-hidden">Twitter-x</span>
-                        <i class="bi bi-twitter-x"></i>
-                      </a>
-                    </li>
-                    <li style="display: inline-block; margin-right: 10px">
-                      <a href="./error404.html" target="_blank" rel="noopener noreferrer">
-                        <span class="visually-hidden">LinkedIn</span>
-                        <i class="bi bi-linkedin"></i>
-                      </a>
-                    </li>
-                    <li style="display: inline-block; margin-right: 10px">
-                      <a href="./error404.html" target="_blank" rel="noopener noreferrer" id="linkWA">
-                        <span class="visually-hidden">Whatsapp</span>
-                        <i class="bi bi-whatsapp"></i>
-                      </a>
-                    </li>
-                    <li class="last" style="display: inline-block">
-                      <a href="./error404.html" target="_blank" rel="noopener noreferrer" id="linkTG1">
-                        <span class="visually-hidden"> Telegram</span>
-                        <i class="bi bi-telegram"></i>
-                      </a>
-                    </li>
+              <hr />
+            </div>
+          </div>
+          <div class="panel-separator"></div>
+          <div class="panel-pane pane-entity-field pane-node-body">
+            <div class="pane-content">
+              <div
+                class="field field-name-body field-type-text-with-summary field-label-hidden"
+              >
+                <div class="field-items">
+                  <div class="field-item even" property="content:encoded">
+                    <p>
+                      Completa el formulario para que nos contactemos coņ vos
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel-separator"></div>
+          <div class="panel-pane pane-entity-field-extra pane-node-webform">
+            <div class="pane-content">
+              <form>
+                <div>
+                  <div
+                    class="form-item webform-component webform-component-textfield webform-component--nombre form-group form-item form-item-submitted-nombre form-type-textfield form-group"
+                  >
+                    <label class="control-label" for="edit-submitted-nombre"
+                      >Nombre
+                      <span
+                        class="form-required"
+                        title="Este campo es obligatorio."
+                        >*</span
+                      ></label
+                    >
+                    <input
+                      required="required"
+                      class="form-control form-text required bg-dark-subtle"
+                      type="text"
+                      id="edit-submitted-nombre"
+                      name="submitted[nombre]"
+                      value=""
+                      size="60"
+                      maxlength="128"
+                    />
+                  </div>
+                  <div
+                    class="form-item webform-component webform-component-textfield webform-component--apellido form-group form-item form-item-submitted-apellido form-type-textfield form-group"
+                  >
+                    <label class="control-label" for="edit-submitted-apellido"
+                      >Apellido
+                      <span
+                        class="form-required"
+                        title="Este campo es obligatorio."
+                        >*</span
+                      ></label
+                    >
+                    <input
+                      required="required"
+                      class="form-control form-text required bg-dark-subtle"
+                      type="text"
+                      id="edit-submitted-apellido"
+                      name="submitted[apellido]"
+                      value=""
+                      size="60"
+                      maxlength="128"
+                    />
+                  </div>
+                  <div
+                    class="form-item webform-component webform-component-textfield webform-component--numero-de-cuil form-group form-item form-item-submitted-numero-de-cuil form-type-textfield form-group"
+                  >
+                    <label
+                      class="control-label"
+                      for="edit-submitted-numero-de-cuil"
+                      >Número de CUIL o DNI
+                      <span
+                        class="form-required"
+                        title="Este campo es obligatorio."
+                        >*</span
+                      ></label
+                    >
+                    <input
+                      required="required"
+                      class="form-control form-text required bg-dark-subtle"
+                      type="text"
+                      id="edit-submitted-numero-de-cuil"
+                      name="submitted[numero_de_cuil]"
+                      value=""
+                      size="60"
+                      maxlength="128"
+                      placeholder="Introduce el número de DNI O CUIL sin guiones ni puntos"
+                    />
+                  </div>
+                  <div
+                    class="form-item webform-component webform-component-email webform-component--correo-electronico form-group form-item form-item-submitted-correo-electronico form-type-webform-email form-group"
+                  >
+                    <label
+                      class="control-label"
+                      for="edit-submitted-correo-electronico"
+                      >Correo electrónico
+                      <span
+                        class="form-required"
+                        title="Este campo es obligatorio."
+                        >*</span
+                      ></label
+                    >
+                    <input
+                      required="required"
+                      class="email form-control form-text form-email required bg-dark-subtle"
+                      type="email"
+                      id="edit-submitted-correo-electronico"
+                      name="submitted[correo_electronico]"
+                      size="60"
+                    />
+                  </div>
+                  <div
+                    class="form-item webform-component webform-component-number webform-component--documento-de-identidad form-group form-item form-item-submitted-documento-de-identidad form-type-webform-number form-group"
+                  ></div>
+                  <div
+                    class="form-item webform-component webform-component-number webform-component--telefono form-group form-item form-item-submitted-telefono form-type-webform-number form-group"
+                  >
+                    <label class="control-label" for="edit-submitted-telefono"
+                      >Teléfono
+                      <span
+                        class="form-required"
+                        title="Este campo es obligatorio."
+                        >*</span
+                      ></label
+                    >
+                    <input
+                      required="required"
+                      class="form-control form-text form-number required bg-dark-subtle"
+                      type="number"
+                      id="edit-submitted-telefono"
+                      name="submitted[telefono]"
+                      step="any"
+                      placeholder="Incluir el código de área sin 0"
+                      maxlength="12"
+                    />
+                  </div>
+                  <div
+                    class="form-item webform-component webform-component-select webform-component--provincia form-group form-item form-item-submitted-provincia form-type-select form-group"
+                  >
+                    <label class="control-label" for="edit-submitted-provincia"
+                      >Provincia
+                      <span
+                        class="form-required"
+                        title="Este campo es obligatorio."
+                        >*</span
+                      ></label
+                    >
+                    <select
+                      required="required"
+                      class="form-control form-select required"
+                      id="edit-submitted-provincia"
+                      name="submitted[provincia]"
+                    >
+                      <option value="" selected="selected">
+                        - Seleccionar -
+                      </option>
+                      <option value="1">Buenos Aires</option>
+                      <option value="2">Catamarca</option>
+                      <option value="3">Chaco</option>
+                      <option value="4">Chubut</option>
+                      <option value="5">Ciudad Autonoma de Buenos Aires</option>
+                      <option value="6">Córdoba</option>
+                      <option value="7">Corrientes</option>
+                      <option value="8">Entre Ríos</option>
+                      <option value="9">Formosa</option>
+                      <option value="10">Jujuy</option>
+                      <option value="11">La Pampa</option>
+                      <option value="12">La Rioja</option>
+                      <option value="13">Mendoza</option>
+                      <option value="14">Misiones</option>
+                      <option value="15">Neuquén</option>
+                      <option value="16">Río Negro</option>
+                      <option value="17">Salta</option>
+                      <option value="18">San Juan</option>
+                      <option value="19">San Luis</option>
+                      <option value="20">Santa Cruz</option>
+                      <option value="21">Santa Fe</option>
+                      <option value="22">Santiago del Estero</option>
+                      <option value="23">Tierra del Fuego</option>
+                      <option value="24">Tucumán</option>
+                    </select>
+                  </div>
+                  <div
+                    class="form-item webform-component webform-component-textfield webform-component--lugar-de-residencia form-group form-item form-item-submitted-lugar-de-residencia form-type-textfield form-group"
+                  >
+                    <label for="edit-submitted-lugar-de-residencia"
+                      >Lugar de residencia
+                    </label>
+                    <input
+                      required="required"
+                      class="form-control form-text required bg-dark-subtle bg-dark-subtle bg-dark-subtle"
+                      type="text"
+                      id="edit-submitted-lugar-de-residencia"
+                      name="submitted[lugar_de_residencia]"
+                      value=""
+                      size="60"
+                      maxlength="128"
+                    />
+                  </div>
+                  <div
+                    class="form-item webform-component webform-component-radios webform-component--cud form-group form-item form-item-submitted-cud form-type-radios form-group"
+                  >
+                    <label class="control-label mb-4" for="edit-submitted-cud"
+                      >¿En qué rango horario prefiere ser contactado/a?</label
+                    >
+                    <div id="edit-submitted-cud" class="form-radios">
+                      <div
+                        class="form-item form-item-submitted-cud form-type-radio radio"
+                      >
+                        <label class="control-label" for="edit-submitted-cud-1"
+                          ><input
+                            type="radio"
+                            id="edit-submitted-cud-1"
+                            name="submitted[cud]"
+                            value="1"
+                            class="form-radio"
+                          />Desde 08:00 Hs. a 12:00 Hs.</label
+                        >
+                      </div>
+                      <div
+                        class="form-item form-item-submitted-cud form-type-radio radio mb-3"
+                      >
+                        <label class="control-label" for="edit-submitted-cud-2"
+                          ><input
+                            type="radio"
+                            id="edit-submitted-cud-2"
+                            name="submitted[cud]"
+                            value="2"
+                            class="form-radio"
+                          />
+                          Desde 16:00 Hs. a 20:00 Hs.</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="mb-3 webform-component webform-component-select webform-component--motivo-de-tu-consulta form-group form-item form-item-submitted-motivo-de-tu-consulta form-type-select form-group"
+                  >
+                    <label
+                      class="control-label"
+                      for="edit-submitted-motivo-de-tu-consulta"
+                      >Motivo de Contacto
+                      <span
+                        class="form-required"
+                        title="Este campo es obligatorio."
+                        >*</span
+                      ></label
+                    >
+                    <select
+                      required="required"
+                      class="form-control form-select required"
+                      id="edit-submitted-motivo-de-tu-consulta"
+                      name="submitted[motivo_de_tu_consulta]"
+                    >
+                      <option value="" selected="selected">
+                        - Seleccionar -
+                      </option>
+                      <option value="1">
+                        Consultas Sobre mi Plan de Ahorro - Empresas
+                      </option>
+                      <option value="2">
+                        Consultas Sobre mi Plan de Ahorro - Persona Física
+                      </option>
+                      <option value="3">Planes Caídos</option>
+                      <option value="4">Promos vigentes</option>
+                      <option value="5">
+                        Beneficios para la comunidad volkswagen
+                      </option>
+                      <option value="6">Vender mi usado</option>
+                      <option value="7">Servicio Técnico</option>
+                      <option value="8">Comprar Usados</option>
+                      <option value="9">Compra de Autopartes</option>
+                      <option value="10">
+                        Planes Adjudicados 2026 sin sorteo
+                      </option>
+                      <option value="11">Otros Reclamos</option>
+                    </select>
+                  </div>
+                  <div
+                    class="form-item webform-component webform-component-textarea webform-component--observaciones-1 form-group form-item form-item-submitted-observaciones-1 form-type-textarea form-group"
+                  >
+                    <label
+                      class="control-label"
+                      for="edit-submitted-observaciones-1"
+                      >Comentario</label
+                    >
+                    <div
+                      class="form-textarea-wrapper resizable textarea-processed resizable-textarea"
+                    >
+                      <textarea
+                        class="form-control form-textarea bg-dark-subtle"
+                        id="edit-submitted-observaciones-1"
+                        name="submitted[observaciones_1]"
+                        cols="60"
+                        rows="5"
+                      ></textarea>
+
+                      <div id="edit-submitted-archivo-1-ajax-wrapper">
+                        <div
+                          class="form-item webform-component webform-component-file webform-component--archivo-1 form-group form-item form-item-submitted-archivo-1 form-type-managed-file form-group"
+                        >
+                          <label
+                            class="control-label"
+                            for="edit-submitted-archivo-1"
+                            >Documentación de referencia
+                          </label>
+
+                          <ul>
+                            <li>
+                              Los archivos deben ser menores que
+                              <strong>2 MB</strong>.
+                            </li>
+                            <li class="my-3">
+                              Tipos de archivo permitidos:
+                              <strong>gif jpg jpeg png pdf doc docx</strong>.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="form-managed-file input-group mb-3">
+                        <input
+                          type="hidden"
+                          name="submitted[archivo_1][fid]"
+                          value="0"
+                        />
+                        <input
+                          class="form-control form-file bg-dark-subtle"
+                          type="file"
+                          id="edit-submitted-archivo-1-upload"
+                          name="files[submitted_archivo_1]"
+                          size="22"
+                        /><span class="input-group-btn"
+                          ><button
+                            class="btn-secondary btn form-submit icon-before ajax-processed"
+                            type="submit"
+                            id="edit-submitted-archivo-1-upload-button"
+                            name="submitted_archivo_1_upload_button"
+                            value="Subir archivo"
+                          >
+                            <span
+                              class="icon glyphicon glyphicon-upload"
+                              aria-hidden="true"
+                            ></span>
+                            Subir archivo
+                          </button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="edit-submitted-archivo-3-ajax-wrapper">
+                    <label
+                      class="control-label my-3"
+                      for="edit-submitted-quiere-recibir-informacion"
+                      >¿Querés recibir información acerca de nuestros últimos
+                      lanzamientos?</label
+                    >
+                    <div
+                      id="edit-submitted-quiere-recibir-informacion"
+                      class="form-radios"
+                    >
+                      <div
+                        class="form-item form-item-submitted-quiere-recibir-informacion form-type-radio radio"
+                      >
+                        <label
+                          class="control-label"
+                          for="edit-submitted-quiere-recibir-informacion-1"
+                          ><input
+                            type="radio"
+                            id="edit-submitted-quiere-recibir-informacion-1"
+                            name="submitted[quiere_recibir_informacion]"
+                            value="1"
+                            class="form-radio"
+                          />Sí</label
+                        >
+                      </div>
+                      <div
+                        class="form-item form-item-submitted-quiere-recibir-informacion form-type-radio radio"
+                      >
+                        <label
+                          class="control-label"
+                          for="edit-submitted-quiere-recibir-informacion-2"
+                          ><input
+                            type="radio"
+                            id="edit-submitted-quiere-recibir-informacion-2"
+                            name="submitted[quiere_recibir_informacion]"
+                            value="2"
+                            class="form-radio"
+                          />No</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <input type="hidden" name="details[sid]" />
+                  <input type="hidden" name="details[page_num]" value="1" />
+                  <input type="hidden" name="details[page_count]" value="1" />
+                  <input type="hidden" name="details[finished]" value="0" />
+                  <input
+                    type="hidden"
+                    name="form_build_id"
+                    value="form-eR1P-FEtNl1Vv7f7C4UYgzEPzOTUdwp9_DycqjuzuuQ"
+                  />
+                  <input
+                    type="hidden"
+                    name="form_id"
+                    value="webform_client_form_86191"
+                  />
+                  <div style="display: none">
+                    <div
+                      class="form-item form-item-tarro-de-miel form-type-textfield form-group"
+                    >
+                      <label class="control-label" for="edit-tarro-de-miel"
+                        >Dejar en blanco</label
+                      >
+                      <input
+                        class="form-control form-text"
+                        type="text"
+                        name="tarro_de_miel"
+                        value=""
+                        size="60"
+                        maxlength="128"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-actions">
+                    <button
+                      class="webform-submit button-secondary btn btn-secondary form-submit my-3"
+                      type="submit"
+                      name="op"
+                      value="Enviar"
+                    >
+                      Enviar Formulario
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer text-dark pt-5 pb-3 container-fluid">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>
+              <img
+                src="https://img.icons8.com/?size=100&id=QKZZO8EpA69a&format=png&color=FFFFFF"
+                alt="Logo volkswagen"
+                class="img-fluid mx-auto d-block"
+                width="50px"
+              />
+            </h5>
+          </div>
+          <div class="col-md-4 text-light text-center align-items-center">
+            <h5>Enlaces</h5>
+            <ul class="list-unstyled text-center">
+              <li class="list-inline">
+                <a href="../index.html" class="text-light text-decoration-none"
+                  >Inicio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="text-light text-decoration-none"
+                  >Servicios</a
+                >
+              </li>
+              <!-- <li>
+                <a href="../pages/contacto.html" class="text-light text-decoration-none">Contacto</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="col-md-4 text-light container-fluid text-center">
+            <h5>Contacto</h5>
+            <p>Email: contacto@ejemplo.com</p>
+            <p>Tel: +123 456 7890</p>
+          </div>
+        </div>
+        <div class="text-center mt-12 text-light container-fluid">
+          <p class="mb-0">
+            &copy; 2025 Volkswagen Tucuman. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="modal-header text-light"
+            style="background-color: rgb(39, 53, 93)"
+          >
+            <h2 class="modal-title fs-5" id="exampleModalLabel">
+              Iniciar Sesión
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            class="modal-body"
+            style="background-color: rgba(67, 71, 78, 0.171)"
+          >
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-12">
+                <label for="validationCustom01" class="form-label"
+                  >Correo electronico</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="validationCustom01"
+                  value=""
+                  required
+                />
+                <div class="valid-feedback">Bien hecho!</div>
+                <div class="invalid-feedback">
+                  <ul>
+                    <li>Campo requerido</li>
+                    <li>Debe ser un correo electronico valido.</li>
                   </ul>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="panel-separator"></div>
-        <div class="panel-pane pane-separador">
-          <div class="pane-content">
-            <hr />
-          </div>
-        </div>
-        <div class="panel-separator"></div>
-        <div class="panel-pane pane-entity-field pane-node-body">
-          <div class="pane-content">
-            <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-              <div class="field-items">
-                <div class="field-item even" property="content:encoded">
-                  <p>
-                    Completa el formulario para que nos contactemos coņ vos
-                  </p>
+              <div class="col-md-12">
+                <label for="validationCustom02" class="form-label"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="validationCustom02"
+                  value=""
+                  required
+                />
+                <div class="valid-feedback">Bien hecho!</div>
+                <div class="invalid-feedback">
+                  <ul>
+                    <li>Campo requerido</li>
+                  </ul>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="panel-separator"></div>
-        <div class="panel-pane pane-entity-field-extra pane-node-webform">
-          <div class="pane-content">
-            <form>
-              <div>
-                <div
-                  class="form-item webform-component webform-component-textfield webform-component--nombre form-group form-item form-item-submitted-nombre form-type-textfield form-group">
-                  <label class="control-label" for="edit-submitted-nombre">Nombre
-                    <span class="form-required" title="Este campo es obligatorio.">*</span></label>
-                  <input required="required" class="form-control form-text required bg-dark-subtle" type="text"
-                    id="edit-submitted-nombre" name="submitted[nombre]" value="" size="60" maxlength="128" />
-                </div>
-                <div
-                  class="form-item webform-component webform-component-textfield webform-component--apellido form-group form-item form-item-submitted-apellido form-type-textfield form-group">
-                  <label class="control-label" for="edit-submitted-apellido">Apellido
-                    <span class="form-required" title="Este campo es obligatorio.">*</span></label>
-                  <input required="required" class="form-control form-text required bg-dark-subtle" type="text"
-                    id="edit-submitted-apellido" name="submitted[apellido]" value="" size="60" maxlength="128" />
-                </div>
-                <div
-                  class="form-item webform-component webform-component-textfield webform-component--numero-de-cuil form-group form-item form-item-submitted-numero-de-cuil form-type-textfield form-group">
-                  <label class="control-label" for="edit-submitted-numero-de-cuil">Número de CUIL o DNI
-                    <span class="form-required" title="Este campo es obligatorio.">*</span></label>
-                  <input required="required" class="form-control form-text required bg-dark-subtle" type="text"
-                    id="edit-submitted-numero-de-cuil" name="submitted[numero_de_cuil]" value="" size="60"
-                    maxlength="128" placeholder="Introduce el número de DNI O CUIL sin guiones ni puntos" />
-                </div>
-                <div
-                  class="form-item webform-component webform-component-email webform-component--correo-electronico form-group form-item form-item-submitted-correo-electronico form-type-webform-email form-group">
-                  <label class="control-label" for="edit-submitted-correo-electronico">Correo electrónico
-                    <span class="form-required" title="Este campo es obligatorio.">*</span></label>
-                  <input required="required" class="email form-control form-text form-email required bg-dark-subtle"
-                    type="email" id="edit-submitted-correo-electronico" name="submitted[correo_electronico]"
-                    size="60" />
-                </div>
-                <div
-                  class="form-item webform-component webform-component-number webform-component--documento-de-identidad form-group form-item form-item-submitted-documento-de-identidad form-type-webform-number form-group">
-                </div>
-                <div
-                  class="form-item webform-component webform-component-number webform-component--telefono form-group form-item form-item-submitted-telefono form-type-webform-number form-group">
-                  <label class="control-label" for="edit-submitted-telefono">Teléfono
-                    <span class="form-required" title="Este campo es obligatorio.">*</span></label>
-                  <input required="required" class="form-control form-text form-number required bg-dark-subtle"
-                    type="number" id="edit-submitted-telefono" name="submitted[telefono]" step="any"
-                    placeholder="Incluir el código de área sin 0" maxlength="12" />
-                </div>
-                <div
-                  class="form-item webform-component webform-component-select webform-component--provincia form-group form-item form-item-submitted-provincia form-type-select form-group">
-                  <label class="control-label" for="edit-submitted-provincia">Provincia
-                    <span class="form-required" title="Este campo es obligatorio.">*</span></label>
-                  <select required="required" class="form-control form-select required" id="edit-submitted-provincia"
-                    name="submitted[provincia]">
-                    <option value="" selected="selected">
-                      - Seleccionar -
-                    </option>
-                    <option value="1">Buenos Aires</option>
-                    <option value="2">Catamarca</option>
-                    <option value="3">Chaco</option>
-                    <option value="4">Chubut</option>
-                    <option value="5">Ciudad Autonoma de Buenos Aires</option>
-                    <option value="6">Córdoba</option>
-                    <option value="7">Corrientes</option>
-                    <option value="8">Entre Ríos</option>
-                    <option value="9">Formosa</option>
-                    <option value="10">Jujuy</option>
-                    <option value="11">La Pampa</option>
-                    <option value="12">La Rioja</option>
-                    <option value="13">Mendoza</option>
-                    <option value="14">Misiones</option>
-                    <option value="15">Neuquén</option>
-                    <option value="16">Río Negro</option>
-                    <option value="17">Salta</option>
-                    <option value="18">San Juan</option>
-                    <option value="19">San Luis</option>
-                    <option value="20">Santa Cruz</option>
-                    <option value="21">Santa Fe</option>
-                    <option value="22">Santiago del Estero</option>
-                    <option value="23">Tierra del Fuego</option>
-                    <option value="24">Tucumán</option>
-                  </select>
-                </div>
-                <div
-                  class="form-item webform-component webform-component-textfield webform-component--lugar-de-residencia form-group form-item form-item-submitted-lugar-de-residencia form-type-textfield form-group">
-                  <label for="edit-submitted-lugar-de-residencia">Lugar de residencia
-                  </label>
-                  <input required="required"
-                    class="form-control form-text required bg-dark-subtle bg-dark-subtle bg-dark-subtle" type="text"
-                    id="edit-submitted-lugar-de-residencia" name="submitted[lugar_de_residencia]" value="" size="60"
-                    maxlength="128" />
-                </div>
-                <div
-                  class="form-item webform-component webform-component-radios webform-component--cud form-group form-item form-item-submitted-cud form-type-radios form-group">
-                  <label class="control-label mb-4" for="edit-submitted-cud">¿En qué rango horario prefiere ser
-                    contactado/a?</label>
-                  <div id="edit-submitted-cud" class="form-radios">
-                    <div class="form-item form-item-submitted-cud form-type-radio radio">
-                      <label class="control-label" for="edit-submitted-cud-1"><input type="radio"
-                          id="edit-submitted-cud-1" name="submitted[cud]" value="1" class="form-radio" />Desde 08:00 Hs.
-                        a 12:00 Hs.</label>
-                    </div>
-                    <div class="form-item form-item-submitted-cud form-type-radio radio mb-3">
-                      <label class="control-label" for="edit-submitted-cud-2"><input type="radio"
-                          id="edit-submitted-cud-2" name="submitted[cud]" value="2" class="form-radio" />
-                        Desde 16:00 Hs. a 20:00 Hs.</label>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="mb-3 webform-component webform-component-select webform-component--motivo-de-tu-consulta form-group form-item form-item-submitted-motivo-de-tu-consulta form-type-select form-group">
-                  <label class="control-label" for="edit-submitted-motivo-de-tu-consulta">Motivo de Contacto
-                    <span class="form-required" title="Este campo es obligatorio.">*</span></label>
-                  <select required="required" class="form-control form-select required"
-                    id="edit-submitted-motivo-de-tu-consulta" name="submitted[motivo_de_tu_consulta]">
-                    <option value="" selected="selected">
-                      - Seleccionar -
-                    </option>
-                    <option value="1">
-                      Consultas Sobre mi Plan de Ahorro - Empresas
-                    </option>
-                    <option value="2">
-                      Consultas Sobre mi Plan de Ahorro - Persona Física
-                    </option>
-                    <option value="3">Planes Caídos</option>
-                    <option value="4">Promos vigentes</option>
-                    <option value="5">
-                      Beneficios para la comunidad volkswagen
-                    </option>
-                    <option value="6">Vender mi usado</option>
-                    <option value="7">Servicio Técnico</option>
-                    <option value="8">Comprar Usados</option>
-                    <option value="9">Compra de Autopartes</option>
-                    <option value="10">
-                      Planes Adjudicados 2026 sin sorteo
-                    </option>
-                    <option value="11">Otros Reclamos</option>
-                  </select>
-                </div>
-                <div
-                  class="form-item webform-component webform-component-textarea webform-component--observaciones-1 form-group form-item form-item-submitted-observaciones-1 form-type-textarea form-group">
-                  <label class="control-label" for="edit-submitted-observaciones-1">Comentario</label>
-                  <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
-                    <textarea class="form-control form-textarea bg-dark-subtle" id="edit-submitted-observaciones-1"
-                      name="submitted[observaciones_1]" cols="60" rows="5"></textarea>
 
-                    <div id="edit-submitted-archivo-1-ajax-wrapper">
-                      <div
-                        class="form-item webform-component webform-component-file webform-component--archivo-1 form-group form-item form-item-submitted-archivo-1 form-type-managed-file form-group">
-                        <label class="control-label" for="edit-submitted-archivo-1">Documentación de referencia
-                        </label>
+              <div class="col-12 d-flex gap-2 contenedorBoton">
+                <button class="btn btn-secondary" type="submit">
+                  Iniciar Sesión
+                </button>
 
-                        <ul>
-                          <li>
-                            Los archivos deben ser menores que
-                            <strong>2 MB</strong>.
-                          </li>
-                          <li class="my-3">
-                            Tipos de archivo permitidos:
-                            <strong>gif jpg jpeg png pdf doc docx</strong>.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="form-managed-file input-group mb-3">
-                      <input type="hidden" name="submitted[archivo_1][fid]" value="0" />
-                      <input class="form-control form-file bg-dark-subtle" type="file"
-                        id="edit-submitted-archivo-1-upload" name="files[submitted_archivo_1]" size="22" /><span
-                        class="input-group-btn"><button class="btn-secondary btn form-submit icon-before ajax-processed"
-                          type="submit" id="edit-submitted-archivo-1-upload-button"
-                          name="submitted_archivo_1_upload_button" value="Subir archivo">
-                          <span class="icon glyphicon glyphicon-upload" aria-hidden="true"></span>
-                          Subir archivo
-                        </button>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="edit-submitted-archivo-3-ajax-wrapper">
-                  <label class="control-label my-3" for="edit-submitted-quiere-recibir-informacion">¿Querés recibir
-                    información acerca de nuestros últimos
-                    lanzamientos?</label>
-                  <div id="edit-submitted-quiere-recibir-informacion" class="form-radios">
-                    <div class="form-item form-item-submitted-quiere-recibir-informacion form-type-radio radio">
-                      <label class="control-label" for="edit-submitted-quiere-recibir-informacion-1"><input type="radio"
-                          id="edit-submitted-quiere-recibir-informacion-1" name="submitted[quiere_recibir_informacion]"
-                          value="1" class="form-radio" />Sí</label>
-                    </div>
-                    <div class="form-item form-item-submitted-quiere-recibir-informacion form-type-radio radio">
-                      <label class="control-label" for="edit-submitted-quiere-recibir-informacion-2"><input type="radio"
-                          id="edit-submitted-quiere-recibir-informacion-2" name="submitted[quiere_recibir_informacion]"
-                          value="2" class="form-radio" />No</label>
-                    </div>
-                  </div>
-                </div>
-                <input type="hidden" name="details[sid]" />
-                <input type="hidden" name="details[page_num]" value="1" />
-                <input type="hidden" name="details[page_count]" value="1" />
-                <input type="hidden" name="details[finished]" value="0" />
-                <input type="hidden" name="form_build_id" value="form-eR1P-FEtNl1Vv7f7C4UYgzEPzOTUdwp9_DycqjuzuuQ" />
-                <input type="hidden" name="form_id" value="webform_client_form_86191" />
-                <div style="display: none">
-                  <div class="form-item form-item-tarro-de-miel form-type-textfield form-group">
-                    <label class="control-label" for="edit-tarro-de-miel">Dejar en blanco</label>
-                    <input class="form-control form-text" type="text" name="tarro_de_miel" value="" size="60"
-                      maxlength="128" />
-                  </div>
-                </div>
-                <div class="form-actions">
-                  <button class="webform-submit button-secondary btn btn-secondary form-submit my-3" type="submit"
-                    name="op" value="Enviar">
-                    Enviar Formulario
-                  </button>
-                </div>
+                <a
+                  href="./registro.html"
+                  target="_blank"
+                  class="btn btn-secondary"
+                  >Registrarse</a
+                >
               </div>
             </form>
           </div>
         </div>
-      </article>
-    </section>
-  </main>
-
-  <footer class="footer text-dark pt-5 pb-3 container-fluid">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-          <h5>
-            <img src="https://img.icons8.com/?size=100&id=QKZZO8EpA69a&format=png&color=FFFFFF" alt="Logo volkswagen"
-              class="img-fluid mx-auto d-block" width="50px" />
-          </h5>
-        </div>
-        <div class="col-md-4 text-light text-center align-items-center">
-          <h5>Enlaces</h5>
-          <ul class="list-unstyled text-center">
-            <li class="list-inline">
-              <a href="../index.html" class="text-light text-decoration-none">Inicio</a>
-            </li>
-            <li>
-              <a href="./error404.html" class="text-light text-decoration-none">Servicios</a>
-            </li>
-            <!-- <li>
-                <a href="../pages/contacto.html" class="text-light text-decoration-none">Contacto</a>
-              </li> -->
-          </ul>
-        </div>
-        <div class="col-md-4 text-light container-fluid text-center">
-          <h5>Contacto</h5>
-          <p>Email: contacto@ejemplo.com</p>
-          <p>Tel: +123 456 7890</p>
-        </div>
-      </div>
-      <div class="text-center mt-12 text-light container-fluid">
-        <p class="mb-0">
-          &copy; 2025 Volkswagen Tucuman. Todos los derechos reservados.
-        </p>
       </div>
     </div>
-  </footer>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header text-light" style="background-color: rgb(39, 53, 93); ">
-          <h2 class="modal-title fs-5" id="exampleModalLabel">
-            Iniciar Sesión
-          </h2>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body" style="background-color: rgba(67, 71, 78, 0.171);">
-          <form class="row g-3 needs-validation" novalidate>
-            <div class="col-md-12">
-              <label for="validationCustom01" class="form-label">Correo electronico</label>
-              <input type="email" class="form-control" id="validationCustom01" value="" required />
-              <div class="valid-feedback">Bien hecho!</div>
-              <div class="invalid-feedback">
-                <ul>
-                  <li>Campo requerido</li>
-                  <li>Debe ser un correo electronico valido.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <label for="validationCustom02" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="validationCustom02" value="" required />
-              <div class="valid-feedback">Bien hecho!</div>
-              <div class="invalid-feedback">
-                <ul>
-                  <li>Campo requerido</li>
-                </ul>
-              </div>
-            </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
 
-            <div class="col-12 d-flex gap-2 contenedorBoton">
-              <button class="btn btn-secondary" type="submit">
-                Iniciar Sesión
-              </button>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
 
-              <a href="./registro.html" target="_blank" class="btn btn-secondary">Registrarse</a>
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
 
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-    crossorigin="anonymous"></script>
-    
- <script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function () {
-      "use strict";
-
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.querySelectorAll(".needs-validation");
-
-      // Loop over them and prevent submission
-      Array.prototype.slice.call(forms).forEach(function (form) {
-        form.addEventListener(
-          "submit",
-          function (event) {
-            if (!form.checkValidity()) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-
-            form.classList.add("was-validated");
-          },
-          false
-        );
-      });
-    })();
-  </script>
-
-</body>
-
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+  </body>
 </html>
