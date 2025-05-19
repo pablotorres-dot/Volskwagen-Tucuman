@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #bodyerror404 {
   font-family: Arial, sans-serif;
   background-color: #0f1f49;
@@ -20,7 +26,6 @@
 }
 #error404 {
   padding-left: 30px;
-  margin-top: 15%;
   display: flex;
   padding: 20px;
   flex-direction: column;
@@ -44,7 +49,8 @@
 }
 #perror404 {
   color: antiquewhite;
-  font-size: 1.5em; font-weight: bold;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 #btn.error404 {
   font-size: 1.5em;
