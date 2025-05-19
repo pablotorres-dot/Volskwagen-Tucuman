@@ -2,8 +2,7 @@
   padding: 0;
   margin: 0;
 }
-html
-{
+html {
   scroll-behavior: smooth;
 }
 main {
@@ -59,8 +58,8 @@ main {
   }
 }
 /* CATEGORIA */
-.titulo-categoria-b{
-   font-family: "Bebas Neue", sans-serif;
+.titulo-categoria-b {
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 500;
   font-size: 50px;
   letter-spacing: 3px;
@@ -69,7 +68,7 @@ main {
 .card-categoria {
   position: relative;
   margin-top: 18px;
-
+  filter: brightness(70%) blur(2px);
   width: 300px;
   height: 200px;
   border-radius: 10px;
@@ -80,10 +79,11 @@ main {
   justify-content: center;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
 .card-categoria:hover {
   transform: scale(1.05);
+  filter: brightness(100%) blur(0px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 .card-categoria img {
@@ -98,22 +98,33 @@ main {
 .card-categoria h3 {
   margin: 0;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
+ 
   padding: 10px 15px;
   border-radius: 5px;
   width: 100%;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.185);
   position: relative;
 }
 .a-de-categoria {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
+ font-family: "Bebas Neue", sans-serif;
+ letter-spacing: 2px;
+
 }
 /* productos */
 @media (min-width: 768px) {
   .card {
     width: 18rem;
   }
+}
+.oferta-l {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .titulo-cards {
   font-family: "Bebas Neue", sans-serif;
@@ -209,7 +220,8 @@ main {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 /* SOBRE NOSOTROS */
-.tiulo-sn {margin-top: 15px;
+.tiulo-sn {
+  margin-top: 15px;
   font-size: 50px;
   letter-spacing: 4px;
   text-decoration: underline;
