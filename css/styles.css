@@ -19,6 +19,7 @@ main {
 }
 
 @media (min-width: 768px) {
+
   #carouselExampleCaptions {
     height: calc(100vh-56px);
   }
@@ -33,6 +34,7 @@ main {
     align-items: center;
     overflow: hidden;
   }
+
 }
 
 @media (min-width: 1024px) {
