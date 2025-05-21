@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#bodyerror404 {
+  font-family: Arial, sans-serif;
+  background-color: #0f1f49;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+#main.error404 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #0a0b1d;
+}
+#error404 {
+  padding-left: 30px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f1f49;
+  height: 100%;
+}
+#Imagen404 {
+  width: auto;
+  height: 300px;
+  margin-top: 30px;
+}
+#tituloerror404 {
+  font-size: 20px;
+  margin: 30px;
+
+  color: antiquewhite;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#perror404 {
+  color: antiquewhite;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#btn.error404 {
+  font-size: 1.5em;
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contenedorError404 {
+  text-align: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #error404 {
+    padding-left: 30px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    height: 100;
+  }
+}

@@ -1,21 +1,66 @@
 html {
-    scroll-padding-top: 270px;
+  scroll-padding-top: 360px;
 }
 
-
-.imgLogo {
-    width: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media(min-width:768px) {
-
-    #carouselExampleCaptions {
-        height: calc(100vh-56px);
-    }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-@media(min-width:1024px) {
-    html {
-        scroll-padding-top: 56px;
-    }
+main {
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+
+  #carouselExampleCaptions {
+    height: calc(100vh-56px);
+  }
+  .contenedorBoton {
+    height: 2.5rem;
+  }
+
+  .contenedorBoton button {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: 70px;
+  }
+}
+
+.encabezado {
+  background-color: rgb(15, 20, 45);
+}
+.footer {
+  background-color: rgb(15, 20, 45);
+}
+.footer p {
+  margin: 1px;
+}
+.footer-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-size: 1rem;
+}
+
+.footer-link:hover {
+  transform: scale(1.1);
+  color: burlywood;
 }
