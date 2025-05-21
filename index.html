@@ -17,6 +17,23 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volkswagen</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=100&id=QKZZO8EpA69a&format=png"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
@@ -29,7 +46,20 @@
       rel="stylesheet"
     />
   </head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
+  <body>
+    <!-- header -->
   <body>
     <!-- header -->
     <header class="position-sticky sticky-top">
@@ -87,6 +117,21 @@
                 >
               </li>
 
+              <li class="nav-item">
+                <!-- Button modal -->
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary text-light"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <i class="bi bi-person-plus-fill"></i> Login
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
               <li class="nav-item">
                 <!-- Button modal -->
                 <button
@@ -672,7 +717,33 @@
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
     ></script>
+              <div class="col-12 d-flex gap-2 contenedorBoton">
+                <button class="btn btn-secondary" type="submit">
+                  Iniciar Sesión
+                </button>
 
+                <a
+                  href="./pages/registro.html"
+                  target="_blank"
+                  class="btn btn-secondary"
+                  >Registrarse</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
     <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
       (function () {
@@ -680,7 +751,18 @@
 
         // Fetch all the forms we want to apply custom Bootstrap validation styles to
         var forms = document.querySelectorAll(".needs-validation");
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
 
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
         // Loop over them and prevent submission
         Array.prototype.slice.call(forms).forEach(function (form) {
           form.addEventListener(
@@ -699,4 +781,13 @@
       })();
     </script>
   </body>
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+  </body>
 </html>
+
