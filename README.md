@@ -4,9 +4,6 @@
 - [Integrantes](#integrantes)
 - [De qué trata](#de-que-trata)
 - [Uso](#uso)
--  [Características](#caracteristicas)
-- [División de partes de la página](#division-de-partes-de-la-pagina)
-- [Instalación](#instalacion)
 ## De que trata? 
 decidimos hacer una pagina e-commerce basada en volkswagen que proporciona información sobre modelos, 
 historia y novedades, con un diseño responsive y moderno.
