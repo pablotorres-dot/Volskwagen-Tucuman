@@ -1,176 +1,702 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volkswagen</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=100&id=QKZZO8EpA69a&format=png"
+      type="image/x-icon"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <!-- header -->
     <header class="position-sticky sticky-top">
-        <!-- header -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand d-flex gap-2" href="#"><i class="bi bi-lightbulb-fill"></i> volkswagen</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="bi bi-house-door-fill"></i> Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#buscar"><i class="bi bi-star-fill"></i> Buscar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Carrito"><i class="bi bi-journal-code"></i> Carrito</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#nosotros"><i class="bi bi-chat-left-quote-fill"></i>
-                                Sobre Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacto"><i class="bi bi-geo-alt-fill"></i> Contacto</a>
-                        </li>
+      <nav class="navbar navbar-expand-lg navbar-dark encabezado">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex gap-2" href="#"
+            ><img
+              src="https://img.icons8.com/?size=100&id=QKZZO8EpA69a&format=png&color=FFFFFF"
+              width="40"
+              alt="Logo volkswagen"
+            />
+            Volkswagen Tucuman</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="bi bi-house-door-fill"></i> Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/error404.html"
+                  ><i class="bi bi-search"></i> Buscar</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/detalledecategoria.html"
+                  ><i class="bi bi-car-front"></i> Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/detalledecarrito.html"
+                  ><i class="bi bi-cart4"></i> Carrito</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/acercadenosotros.html"
+                  ><i class="bi bi-people-fill"></i> Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html" target="_blank"
+                  ><i class="bi bi-person-plus-fill"></i> Contacto</a
+                >
+              </li>
 
-                        <li class="nav-item">
-                            <!-- Button modal -->
-                            <button type="button" class="btn btn-outline-primary text-light" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                <i class="bi bi-person-plus-fill"></i> Login
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+              <li class="nav-item">
+                <!-- Button modal -->
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary text-light"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <i class="bi bi-person-plus-fill"></i> Login
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-     <!-- Modal -->
-     <div
-     class="modal fade"
-     id="exampleModal"
-     tabindex="-1"
-     aria-labelledby="exampleModalLabel"
-     aria-hidden="true"
-   >
-     <div class="modal-dialog">
-       <div class="modal-content">
-         <div class="modal-header">
-           <h2 class="modal-title fs-5" id="exampleModalLabel">
-             Formulario de registro
-           </h2>
-           <button
-             type="button"
-             class="btn-close"
-             data-bs-dismiss="modal"
-             aria-label="Close"
-           ></button>
-         </div>
-         <div class="modal-body">
-           <form class="row g-3 needs-validation" novalidate>
-             <div class="col-md-12">
-               <label for="validationCustom01" class="form-label">Email</label>
-               <input
-                 type="email"
-                 class="form-control"
-                 id="validationCustom01"
-                 value=""
-                 required
-               />
-               <div class="valid-feedback">Bien hecho!</div>
-               <div class="invalid-feedback">
-                 <ul>
-                   <li>Campo requerido</li>
-                   <li>Debe ser un correo electronico valido.</li>
-                 </ul>
-               </div>
-             </div>
-             <div class="col-md-12">
-               <label for="validationCustom02" class="form-label"
-                 >Contraseña</label
-               >
-               <input
-                 type="password"
-                 class="form-control"
-                 id="validationCustom02"
-                 value=""
-                 required
-               />
-               <div class="valid-feedback">Bien hecho!</div>
-               <div class="invalid-feedback">
-                 <ul>
-                   <li>Campo requerido</li>
-                 </ul>
-               </div>
-             </div>
+    <main>
+      <section class="CARRUSEL">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide custom-carousel"
+          data-bs-ride="carousel"
+          data-bs-interval="4000"
+          data-bs-pause="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/Control de Estabilidad (ESC) y tracción..png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/amarok.jpg.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/taos.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
 
-             <div class="col-12">
-               <div class="form-check">
-                 <input
-                   class="form-check-input"
-                   type="checkbox"
-                   value=""
-                   id="invalidCheck"
-                   required
-                 />
-                 <label class="form-check-label" for="invalidCheck">
-                   Acepto los terminos y condiciones
-                 </label>
-                 <div class="invalid-feedback">
-                   Debe aceptar los terminos y condiciones.
-                 </div>
-               </div>
-             </div>
-             <div class="col-12">
-               <button class="btn btn-primary" type="submit">Enviar</button>
-             </div>
-           </form>
-         </div>
-       </div>
-     </div>
-   </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="custom-arrow"
+              ><i class="bi bi-arrow-left-square-fill"></i
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span><i class="bi bi-arrow-right-square-fill"></i></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="BENEFICIOS">
+        <div class="contenedor-mayor-beneficios py-2 my-2">
+          <h2 class="titulo-b-1 text-center text mt-3 fs-1 fw-bold">
+            BENEFICIOS
+          </h2>
 
-   <script
-     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-     crossorigin="anonymous"
-   ></script>
+          <div
+            class="contenedor-beneficios d-flex justify-content-center flex-column flex-md-row align-items-center justify-content-md-evenly px-2"
+          >
+            <div
+              class="b-1 d-flex flex-column align-items-center my-3 text-center"
+            >
+              <img
+                class="mt-3"
+                width="50"
+                height="50"
+                src="https://img.icons8.com/ios-glyphs/30/vision.png"
+                alt="vision"
+              />
+              <p class="parrafo-b-1 text-center fs-5 my-3 text-light">
+                Pueden comparar modelos, precios y versiones fácilmente.
+              </p>
+            </div>
 
-   <script>
-     // Example starter JavaScript for disabling form submissions if there are invalid fields
-     (function () {
-       "use strict";
+            <div class="b-1 d-flex flex-column align-items-center text-center">
+              <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/easy.png"
+                alt="easy"
+              />
+              <p class="parrafo-b-1 text-center fs-5 my-3 text-light">
+                No necesitan visitar varios concesionarios. Pueden ver todo
+                desde su casa o celular.
+              </p>
+            </div>
+            <div
+              class="b-1 d-flex flex-column align-items-center my-3 text-center"
+            >
+              <img
+                class="my-2"
+                width="50"
+                height="50"
+                src="https://img.icons8.com/ios/50/business-network--v1.png"
+                alt="business-network--v1"
+              />
+              <p class="parrafo-b-1 text-center fs-5 text-light">
+                Contacto directo con vendedores o asesores .
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="CATEGORIAS">
+        <h2 class="titulo-categoria text-center my-3">
+          <b class="titulo-categoria-b" id="productos">
+            Descubrí tu Volkswagen</b
+          >
+        </h2>
+        <div
+          class="contendeor-de-categorias d-flex align-items-center justify-content-center flex-column gap-2 flex-md-row gap-md-5 my-3"
+        >
+          <div class="card-categoria">
+            <a href="./pages/detalledecategoria.html" class="a-de-categoria">
+              <img src="./images/portada 1.png" alt="Imagen de fondo" />
+              <h3>SUV</h3>
+            </a>
+          </div>
+          <div class="card-categoria">
+            <a href="./pages/detalledecategoria.html" class="a-de-categoria">
+              <img src="./images/portada 2.png" alt="Imagen de fondo" />
+              <h3>Pick-Up</h3>
+            </a>
+          </div>
+          <div class="card-categoria">
+            <a href="./pages/detalledecategoria.html" class="a-de-categoria">
+              <img src="./images/portada 3.png" alt="Imagen de fondo" />
+              <h3>Otros...</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="AUTOS">
+        <h2 class="titulo-cards text-center my-5 mx-2 px-3">Línea Volkswagen</h2>
+        <div
+          class="contenedor-pro d-flex flex-column justify-content-center gap-3 flex-md-wrap"
+        >
+          <div
+            class="nivus d-md-flex flex-md-row justify-content-around gap-2"
+          >
+            <div class="card my-4 mx-2 ">
+              <img
+                src="./images/NIVUS-AZUL-TURBO.webp"
+                class="card-img-top w-100"
+                alt="auto nivus"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nuevo Nivus</h5>
+                <p class="card-text">
+                  cuota desde $500.789 Tasa 16,90% 12 meses CFT: 31,24%
+                </p>
+                <div
+                  class="contenedor-de-botones justify-content-around d-flex gap-2 flex-row"
+                >
+                  <a
+                    href="./pages/error404.html"
+                    class="btn"
+                    style="background-color: rgb(84, 109, 137)"
+                    >Ver mas</a
+                  >
+                  <a href="./pages/contacto.html" class="btn mx-1">Consulta</a>
+                </div>
+              </div>
+            </div>
+            <div class="card my-4 mx-3">
+              <img
+                src="./images/T-CROSS-BLANCO-MARFIL.webp"
+                class="card-img-top"
+                alt="auto t-cross"
+              />
+              <div class="card-body">
+                <h5 class="card-title">T-cross</h5>
+                <p class="card-text">
+                  Cuotas desde $498.993 Tasa 0% 12 meses CFT: 9,44%10
+                </p>
+                <div
+                  class="contenedor-de-botones justify-content-around d-flex gap-5 flex-row"
+                >
+                  <a
+                    href="./pages/detalledeproducto.html"
+                    class="btn"
+                    style="background-color: rgb(84, 109, 137)"
+                    >Ver mas</a
+                  >
+                  <a href="./pages/contacto.html" class="btn mx-1">Consulta</a>
+                </div>
+              </div>
+            </div>
+            <div class="card my-4 mx-3">
+              <img src="./images/TAOS-MOJAVE.webp" alt="auto taos" />
+              <div class="card-body">
+                <h5 class="card-title">Nuevo Taos</h5>
+                <p class="card-text">
+                  Cuotas desde $328.293 Adjudicación asegurada en cuota 8
+                </p>
+                <div
+                  class="contenedor-de-botones justify-content-between d-flex gap-5 flex-row"
+                >
+                  <a
+                    href="./pages/error404.html"
+                    class="btn"
+                    style="background-color: rgb(84, 109, 137)"
+                    >Ver mas</a
+                  >
+                  <a href="./pages/contacto.html" class="btn mx-1">Consulta</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="amarok d-md-flex flex-md-row justify-content-around gap-5"
+          >
+            <div class="card my-4 mx-3">
+              <img
+                src="./images/AMAROK-BLACK-STYLE.webp"
+                class="card-img-top"
+                alt="amarok color negro"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Amarok azabache</h5>
+                <p class="card-text">
+                  Cuota desde $260.493 Tasa 0% 12 meses CFT: 12,08%16
+                </p>
+                <div
+                  class="contenedor-de-botones justify-content-between d-flex gap-5 flex-row"
+                >
+                  <a
+                    href="./pages/detalledeproducto.html"
+                    class="btn"
+                    style="background-color: rgb(84, 109, 137)"
+                    >Ver mas</a
+                  >
+                  <a href="./pages/contacto.html" class="btn mx-1">Consulta</a>
+                </div>
+              </div>
+            </div>
+            <div class="card my-4 mx-3">
+              <img
+                src="./images/AMAROK-EXTREME-PIRITA.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nueva Amarok</h5>
+                <p class="card-text">
+                  Cuotas desde $298.493 Adjudicación asegurada en cuota 3
+                </p>
+                <div
+                  class="contenedor-de-botones justify-content-between d-flex gap-5 flex-row"
+                >
+                  <a
+                    href="./pages/detalledeproducto.html"
+                    class="btn"
+                    style="background-color: rgb(84, 109, 137)"
+                    >Ver mas</a
+                  >
+                  <a href="./pages/contacto.html" class="btn mx-1">Consulta</a>
+                </div>
+              </div>
+            </div>
+            <div class="card my-4 mx-3">
+              <img
+                src="./images/SAVEIRO-GRIS-VOLCAN.webp"
+                class="card-img-top"
+                alt="auto saveiro"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Saveiro</h5>
+                <p class="card-text">
+                  Cuotas desde $188.123 Adjudicación asegurada en cuota 7
+                </p>
+                <div
+                  class="contenedor-de-botones justify-content-between d-flex gap-5 flex-row"
+                >
+                  <a
+                    href="./pages/error404.html"
+                    class="btn"
+                    style="background-color: rgb(84, 109, 137)"
+                    >Ver mas</a
+                  >
+                  <a href="./pages/contacto.html" class="btn mx-1">Consulta</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-       // Fetch all the forms we want to apply custom Bootstrap validation styles to
-       var forms = document.querySelectorAll(".needs-validation");
+          <div class="ofertas-especiales my-3">
+            <h2 class="oferta-l text-center my-4">
+              Ofertas especiales <i class="bi bi-coin"></i>
+            </h2>
+            <div
+              class="m-otros d-md-flex flex-md-row justify-content-around gap-5"
+            >
+              <div class="card my-4 mx-3">
+                <img
+                  src="https://assets.volkswagen.com/is/image/volkswagenag/POLO-ROJO-SUNSET-34?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTE5MjAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNzgwOQ=="
+                  class="card-img-top"
+                  alt="auto polo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Nuevo Polo</h5>
+                  <p class="card-text">
+                    Cuotas desde $200.500 Adjudicación asegurada en cuota 2
+                  </p>
+                  <div
+                    class="contenedor-de-botones justify-content-between d-flex gap-5 flex-row"
+                  >
+                    <a
+                      href="./pages/error404.html"
+                      class="btn"
+                      style="background-color: rgb(84, 109, 137)"
+                      >Ver mas</a
+                    >
+                    <a href="./pages/contacto.html" class="btn mx-1"
+                      >Consulta</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card my-4 mx-3">
+                <img
+                  src="images/vento.png"
+                  class="card-img-top"
+                  alt="imagen de auto vento"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">vento</h5>
+                  <p class="card-text">
+                    Cuotas desde $508.853 Tasa 29,90% 18 meses CFT: 49,39%6
+                  </p>
+                  <div
+                    class="contenedor-de-botones justify-content-between d-flex gap-5 flex-row"
+                  >
+                    <a
+                      href="./pages/detalledeproducto.html"
+                      class="btn"
+                      style="background-color: rgb(84, 109, 137)"
+                      >Ver mas</a
+                    >
+                    <a href="./pages/contacto.html" class="btn mx-1"
+                      >Consulta</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card my-4 mx-3">
+                <img
+                  src="./images/VIRTUS-BLANCO-CRISTAL.webp"
+                  alt="auto virtus"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Nuevo virtus</h5>
+                  <p class="card-text">
+                    $345.000 Adjudicación asegurada en 5 cuotas
+                  </p>
+                  <div
+                    class="contenedor-de-botones justify-content-between d-flex gap-5 flex-row"
+                  >
+                    <a
+                      href="./pages/error404.html"
+                      class="btn"
+                      style="background-color: rgb(84, 109, 137)"
+                      >Ver mas</a
+                    >
+                    <a href="./pages/contacto.html" class="btn mx-1"
+                      >Consulta</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="PUBLICIDAD">
+        <div class="publi-contenedor d-none d-md-block my-5">
+          <div>
+            <img
+              src="./images/volkswagen-amarok-976605-1110x577.jpg"
+              class="img-publi"
+              alt="Publicidad"
+            />
+          </div>
+          <div class="titulo-publi">
+            <h2 class="titulo-publicidad">
+              Potencia que domina cualquier terreno
+            </h2>
+            <p class="p-publi">
+              Conquista cada camino con 12 cuotas sin intereses. La fuerza de la
+              Amarok, ahora a tu alcance.
+            </p>
+          </div>
+          <a
+            href="https://youtu.be/xCIOivkJxgA?si=EmrOePKVV3qWzwWx"
+            target="_blank"
+            class="b-publi"
+            >ver mas</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer text-dark pt-5 pb-3 container-fluid">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>
+                <img
+                  src="https://img.icons8.com/?size=100&id=QKZZO8EpA69a&format=png&color=FFFFFF"
+                  alt="Logo volkswagen"
+                  class="img-fluid mx-auto d-block"
+                  width="90px"
+                />
+              </h5>
+            </div>
+            <div class="col-md-4 text-light text-center align-items-center">
+              <h5>Enlaces</h5>
+              <ul class="list-unstyled text-center">
+                <li class="list-inline">
+                  <a href="#" class="footer-link">Inicio</a>
+                </li>
+                <li>
+                  <a href="./pages/acercadenosotros.html" class="footer-link"
+                    >Sobre Nosotros</a
+                  >
+                </li>
+                <li>
+                  <a href="./pages/contacto.html" class="footer-link"
+                    >Contacto</a
+                  >
+                </li>
+                <li>
+                  <a href="./pages/detalledecarrito.html" class="footer-link"
+                    >Carrito</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 text-light container-fluid text-center">
+              <h5>Contacto</h5>
+              <p>
+                <i class="bi bi-envelope-at-fill"></i>
+                Volkswagen-tucuman@Gmail.com
+              </p>
+              <p><i class="bi bi-telephone-fill"></i> +54 3813501512</p>
+              <p><i class="bi bi-instagram"></i> @Volkswagen-Tucuman</p>
+            </div>
+          </div>
+          <div class="text-center mt-12 text-light container-fluid">
+            <hr />
+            <h6>
+              &copy; 2025 Volkswagen Tucuman. Todos los derechos reservados.
+            </h6>
+          </div>
+        </div>
+      </footer>
 
-       // Loop over them and prevent submission
-       Array.prototype.slice.call(forms).forEach(function (form) {
-         form.addEventListener(
-           "submit",
-           function (event) {
-             if (!form.checkValidity()) {
-               event.preventDefault();
-               event.stopPropagation();
-             }
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="modal-header text-light"
+            style="background-color: rgb(39, 53, 93)"
+          >
+            <h2 class="modal-title fs-5" id="exampleModalLabel">
+              Iniciar Sesión
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            class="modal-body"
+            style="background-color: rgba(67, 71, 78, 0.171)"
+          >
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-12">
+                <label for="validationCustom01" class="form-label"
+                  >Correo electronico</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="validationCustom01"
+                  value=""
+                  required
+                />
+                <div class="valid-feedback">Bien hecho!</div>
+                <div class="invalid-feedback">
+                  <ul>
+                    <li>Campo requerido</li>
+                    <li>Debe ser un correo electronico valido.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="validationCustom02" class="form-label"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="validationCustom02"
+                  value=""
+                  required
+                />
+                <div class="valid-feedback">Bien hecho!</div>
+                <div class="invalid-feedback">
+                  <ul>
+                    <li>Campo requerido</li>
+                  </ul>
+                </div>
+              </div>
 
-             form.classList.add("was-validated");
-           },
-           false
-         );
-       });
-     })();
-   </script>
-</body>
+              <div class="col-12 d-flex gap-2 contenedorBoton">
+                <button class="btn btn-secondary" type="submit">
+                  Iniciar Sesión
+                </button>
 
+                <a
+                  href="./pages/registro.html"
+                  target="_blank"
+                  class="btn btn-secondary"
+                  >Registrarse</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+  </body>
 </html>

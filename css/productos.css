@@ -1,0 +1,172 @@
+html {
+  scroll-padding-top: 270px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar y footer */
+.encabezado {
+  background-color: rgb(15, 20, 45);
+}
+.footer {
+  background-color: rgb(15, 20, 45);
+}
+.footer p {
+  margin: 1px;
+}
+.footer-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-size: 1rem;
+}
+
+.footer-link:hover {
+  transform: scale(1.1);
+  color: burlywood;
+}
+/* main */
+main {
+  background-color: rgba(67, 71, 78, 0.171);
+  
+}
+h1{
+    padding-left: 30px;
+    font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-shadow: 2px 8px 5px rgba(0, 0, 0, 0.3);
+}
+h2{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-shadow: 2px 8px 5px rgba(0, 0, 0, 0.3);
+}
+h3{
+    padding-left: 100px;
+    font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-shadow: 2px 8px 5px rgba(0, 0, 0, 0.3);
+}
+.tcross{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.amarok{
+     display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.vento{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.comentarios{
+  padding: 20px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.comentarios h3{
+  padding: 0;
+  text-align: center;
+}
+
+.comments-section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-form {
+  margin-bottom: 20px;
+}
+
+.comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.comentarios {
+  width: 80%; /* Ajusta el ancho según tu diseño */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+.lista-comentarios {
+  list-style-type: none; /* Elimina los marcadores de la lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+.comentario {
+  border: 1px solid #ccc; /* Añade un borde suave */
+  padding: 10px; /* Añade espacio dentro del comentario */
+  margin-bottom: 15px; /* Añade espacio entre los comentarios */
+}
+
+.autor {
+  font-weight: bold; /* Destaca el nombre del autor */
+  margin-bottom: 5px; /* Añade espacio entre el autor y la fecha */
+}
+
+.fecha {
+  font-size: 0.8em; /* Reduce el tamaño de la fecha */
+  color: #777; /* Cambia el color a gris */
+  margin-bottom: 5px;
+}
+
+.texto {
+  line-height: 1.4; /* Mejora la legibilidad del texto */
+}
+
+/* Estilos adicionales (opcionales): */
+.comentario:hover {
+  background-color: #f0f0f0; /* Cambia el fondo al pasar el ratón */
+}
+@media screen and (max-width:700px){
+    main{
+      display: flex;
+      flex-direction: column;
+    }
+    .tcross{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .amarok{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .comentarios{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2{
+        padding: 0;
+        text-align: center;
+      }
+    }
+   }
