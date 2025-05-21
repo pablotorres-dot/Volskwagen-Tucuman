@@ -1,17 +1,9 @@
-proyecto volkswagen-tucuman🚗
-👥 Integrantes del Proyecto:
-
-Amelia Antoni
-Sara Robles
-Pablo Torres (LIDER TECNICO)
-Sergio Damian Osores (SCRUM)
-Mario Gomez Lazo
-Matias Soria Indarte
+PROYECTO VOLKSWAGEN TUCUMAN🚗
 
 📂 Índice
-Descripción del Proyecto
+[Descripción del Proyecto](#descripcion-del-proyecto)
 
-Integrantes del Proyecto
+[Instalación](#instalacion)
 
 Uso
 
@@ -21,11 +13,21 @@ División de Tareas
 
 Instalación
 
-De que trata?💡
+##De que trata?💡
 decidimos hacer una pagina e-commerce basada en volkswagen que proporciona información sobre modelos, 
 historia y novedades, con un diseño responsive y moderno.
 
- 🚀 Uso
+##👥 Integrantes del Proyecto:
+
+Amelia Antoni
+Sara Robles
+Pablo Torres (LIDER TECNICO)
+Sergio Damian Osores (SCRUM)
+Mario Gomez Lazo
+Matias Soria Indarte
+
+
+## 🚀 Uso
 Una vez abierto en el navegador, podrás navegar por las diferentes secciones del sitio:
 
 Inicio: Presentación general de la marca.
@@ -38,7 +40,7 @@ Noticias: Últimas novedades y lanzamientos.
 
 Contacto: Formulario para consultas y comentarios.
 
-✨ Características
+##✨ Características
 Diseño responsive para adaptarse a diferentes dispositivos.
 
 Animaciones suaves y transiciones atractivas.
@@ -48,7 +50,7 @@ Integración de iconos mediante Font Awesome.
 Código limpio y bien estructurado para facilitar futuras modificaciones.
 
 
-🤝Division de partes de la pagina(todos los integrantes hicieron su parte responsive):
+##🤝Division de partes de la pagina(todos los integrantes hicieron su parte responsive):
 
 🔵Amelia se encargo de hacer el main en cada  pagina
 ![image](https://github.com/user-attachments/assets/57ecce7f-7132-4af5-b720-a2594a452f51) 
@@ -87,7 +89,7 @@ tambien hizo la de detalles de productos
 ![image](https://github.com/user-attachments/assets/825b079e-c609-4374-b2a8-245ed47c9043)
 ![image](https://github.com/user-attachments/assets/7975eb22-3f55-4d5e-b1e1-2c90fde30d5c)
 
-⚙️ Instalación
+##⚙️ Instalación
 Clona el repositorio:
 git clone https://github.com/tuusuario/volkswagen-web.git
 
