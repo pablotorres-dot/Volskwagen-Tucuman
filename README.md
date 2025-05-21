@@ -1,4 +1,4 @@
-PROYECTO VOLKSWAGEN TUCUMAN🚗
+# Heading level 1 PROYECTO VOLKSWAGEN TUCUMAN🚗
 
 📂 Índice
 [Descripción del Proyecto](#descripcion-del-proyecto)
@@ -89,7 +89,7 @@ tambien hizo la de detalles de productos
 ![image](https://github.com/user-attachments/assets/825b079e-c609-4374-b2a8-245ed47c9043)
 ![image](https://github.com/user-attachments/assets/7975eb22-3f55-4d5e-b1e1-2c90fde30d5c)
 
-##⚙️ Instalación
+⚙️ ## Instalación
 Clona el repositorio:
 git clone https://github.com/tuusuario/volkswagen-web.git
 
