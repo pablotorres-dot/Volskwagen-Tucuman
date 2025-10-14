@@ -42,7 +42,7 @@ Una vez abierto en el navegador, podrás navegar por las diferentes secciones de
 
 ## Division de partes de la pagina(todos los integrantes hicieron su parte responsive) 🧩 :
 
-- ##### Amelia se encargo de hacer el main en cada  pagina
+- ##### Amelia se encargo de hacer el header en cada  pagina
 ![image](https://github.com/user-attachments/assets/57ecce7f-7132-4af5-b720-a2594a452f51) 
 ![image](https://github.com/user-attachments/assets/113e9b4c-f13e-4314-a1e6-5b3747faf0f0)
 
