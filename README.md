@@ -10,12 +10,12 @@ historia y novedades, con un diseño responsive y moderno.
 
  ## Integrantes
 
-**Amelia Antoni**
-**Sara Robles**
-**Pablo Torres (LIDER TECNICO)**
-**Sergio Damian Osores (SCRUM)**
-**Mario Agustin Gomez Lazo**
-**Matias Soria Indarte**
+* **Amelia Antoni**
+* **Sara Robles**
+* **Pablo Torres (LIDER TECNICO)**
+* **Sergio Damian Osores (SCRUM)**
+* **Mario Agustin Gomez Lazo**
+* **Matias Soria Indarte**
 
 
 ## Uso 
